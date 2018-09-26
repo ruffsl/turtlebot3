@@ -31,5 +31,5 @@ def generate_launch_description():
         Node(package='turtlebot3_node', node_executable='odometry_publisher', output='screen'),
         Node(package='turtlebot3_node', node_executable='tf_publisher', output='screen'),
         Node(package='turtlebot3_node', node_executable='joint_states_publisher', output='screen'),
-        Node(package='turtlebot3_node', node_executable='scan_publisher', output='screen')
+        Node(package='hls_lfcd_lds_driver', node_executable='hlds_laser_publisher', output='screen')
     ])
